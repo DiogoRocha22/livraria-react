@@ -1,0 +1,38 @@
+.search{
+  @include centered;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.books-container {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(6, 1fr); // 4 livros em telas grandes
+  gap: 20px; // Espaço entre os livros
+
+  @media (max-width: 1028px) { // Para telas médias
+    grid-template-columns: repeat(4, 1fr); // 2 livros em telas médias
+  }
+
+  @media (max-width: 768px) { // Para telas médias
+    grid-template-columns: repeat(3, 1fr); // 2 livros em telas médias
+  }
+
+  @media (max-width: 480px) { // Para telas pequenas
+    grid-template-columns: repeat(2, 1fr); // 1 livro em telas pequenas
+  }
+}
+
+.book {  
+  text-align: center;
+  cursor: pointer;
+
+  img{
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  h4{
+    padding: 0 10px;
+  }
+}

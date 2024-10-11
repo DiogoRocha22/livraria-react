@@ -1,0 +1,33 @@
+@mixin centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin button-styles($bg-color, $text-color, $hover-bg, $hover-color) {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  color: $text-color;
+  background-color: $bg-color;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: $hover-bg;
+    color: $hover-color;
+  }
+}
+
+@mixin input($border-radius){
+  padding: 5px 10px;
+  border-radius: $border-radius;
+  border: 1px solid black;
+
+  &:focus{
+    outline: none;
+  }
+}

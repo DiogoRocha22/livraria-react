@@ -1,0 +1,20 @@
+.input-search{
+  @include input(20px);
+  display: flex;
+  align-items: center;
+  width: 30%;
+
+  @media (max-width:768px) {
+    width: 70%;
+  }
+}
+
+.input-in{
+  border: none!important;
+  width: 100%;
+  @include input(2px);
+
+  &:focus{
+    outline: none;
+  }
+}

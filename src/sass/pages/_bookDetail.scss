@@ -1,0 +1,40 @@
+.book-detail{
+  display: flex;
+  width: 100%;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 5%;
+}
+
+.book-data{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  width: 80%;
+
+  img{
+    border-radius: 20px;
+    height: 100%;
+  }
+
+  h1{
+    font-size: 56px;
+    color: rgb(37, 33, 33);
+  }
+
+  .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .actions{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+  }
+
+  font-size: 18px;
+}

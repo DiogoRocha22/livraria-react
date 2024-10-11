@@ -1,0 +1,3 @@
+.btn-primary{
+  @include button-styles($primary-color, #FFFF, $secondary-color, $terciary-color)
+}
