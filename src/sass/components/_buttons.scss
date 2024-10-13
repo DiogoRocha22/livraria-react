@@ -1,3 +1,4 @@
 .btn-primary{
-  @include button-styles($primary-color, #FFFF, $secondary-color, $terciary-color)
+  @include button-styles($primary-color, #FFFF, $secondary-color, $terciary-color);
+  padding:20px 14px!important;
 }

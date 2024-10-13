@@ -21,6 +21,10 @@
   @media (max-width: 480px) { // Para telas pequenas
     grid-template-columns: repeat(2, 1fr); // 1 livro em telas pequenas
   }
+
+  a{
+    color: black;
+  }
 }
 
 .book {  

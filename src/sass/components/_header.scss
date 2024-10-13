@@ -1,5 +1,5 @@
 .header{
-  padding: 30px 40px;
+  padding: 2rem 4rem;
   display: flex;
   width: 100%;
   position: sticky;
@@ -8,4 +8,20 @@
   align-items: center;
   background-color: $primary-color;
   border-bottom-left-radius: 50px;
+
+  nav{
+    display: flex;
+    color: white;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-link{
+    color:white;
+    cursor: pointer;
+
+    &:hover{
+      color: $secondary-color;
+    }
+  }
 }
