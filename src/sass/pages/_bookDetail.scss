@@ -13,6 +13,14 @@
   justify-content: space-between;
   width: 80%;
 
+  .book-face{
+    position: relative;
+
+    .star-icon{
+      margin: 5px 5px;
+    }
+  }
+
   img{
     border-radius: 20px;
     height: 100%;
@@ -22,6 +30,7 @@
     font-size: 56px;
     color: rgb(37, 33, 33);
     line-height: 3rem;
+    margin-bottom: 2rem;
   }
 
   .description{

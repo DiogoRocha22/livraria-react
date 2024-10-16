@@ -1,6 +1,6 @@
 import capa from '../assets/capas/jogadorn1.jpg';
 
-interface Livro {
+export interface Livro {
   id: number,
   nome: string,
   autor: string,
