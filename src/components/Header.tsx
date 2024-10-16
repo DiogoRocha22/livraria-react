@@ -11,7 +11,7 @@ export default function Header() {
         <Link className='nav-link' to="/">Home</Link>
         <DropDown text='Coleção'>
           <Link to="#opcao1">Já lidos</Link>
-          <Link to="#opcao2">Favoritos</Link>
+          <Link to="/favoritos">Favoritos</Link>
           <Link to="#opcao3">Quero ler</Link>
         </DropDown>
         <Link className='nav-link' to="/perfil">Perfil</Link>
